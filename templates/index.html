@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="button">
+    <form method = "POST" action="/" enctype="multipart/form-data"
+
+    <input type ='file' name='imgFile' accept=".jpg,.png">
+    <input type = 'submit' value = 'upload'>
+    </div>
+    <div class="text-container2">
+        <h2>Click me to upload your photo</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 border">
+                <form id="upload_form">
+                    <label for="file">choose file</label>
+                    <input type="file" id="fileinput" />
+                </form>
+            </div>
+            <div class="col-md-4 border">
+                <div class="thumbnail">
+                    <img id="source_image" style="width: 100%;">
+                    <div class="caption">
+                        <p>source image</p>
+                        <p><input type="button" id="compress" value="Compress" class="btn-primary" style="display: none;"</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 border">
+                <div class="thumbnail">
+                    <img id="compressed_image" style="width: 100%;">
+                    <div class="caption">
+                        <p>Compressed Image</p>
+                        <p><input type="button" id="upload" class="btn-success" value="upload" style="display: none;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-container">
+        <h1>PHOTO-BOT</h1>
+        <P>Upload and compress all your photos and
+             images straight from your device</P>
+    </div>
+</body>
+</html>
